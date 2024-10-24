@@ -44,6 +44,7 @@ Ensure you have the following installed on your system:
 - Docker
 - Docker Compose
 - Git
+- pnpm
 
 ### Installation
 
@@ -59,12 +60,17 @@ Ensure you have the following installed on your system:
    ./scripts/populate_project_files.sh
    ```
 
-3. **Build the project:**
+3. **Install dependencies:**
+   ```bash
+   pnpm install
+   ```
+
+4. **Build the project:**
    ```bash
    mvn clean install
    ```
 
-4. **Run the application:**
+5. **Run the application:**
    ```bash
    docker-compose up --build
    ```

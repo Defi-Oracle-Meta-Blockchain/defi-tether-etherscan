@@ -75,8 +75,8 @@ secrets/
 # Ignore all node_modules
 node_modules/
 
-# Ignore all npm debug log files
-npm-debug.log*
+# Ignore all pnpm debug log files
+pnpm-debug.log*
 
 # Ignore all yarn lock files
 yarn.lock
@@ -188,8 +188,8 @@ secrets/
 # Ignore all node_modules
 node_modules/
 
-# Ignore all npm debug log files
-npm-debug.log*
+# Ignore all pnpm debug log files
+pnpm-debug.log*
 
 # Ignore all yarn lock files
 yarn.lock
@@ -301,8 +301,8 @@ secrets/
 # Ignore all node_modules
 node_modules/
 
-# Ignore all npm debug log files
-npm-debug.log*
+# Ignore all pnpm debug log files
+pnpm-debug.log*
 
 # Ignore all yarn lock files
 yarn.lock
@@ -414,8 +414,8 @@ secrets/
 # Ignore all node_modules
 node_modules/
 
-# Ignore all npm debug log files
-npm-debug.log*
+# Ignore all pnpm debug log files
+pnpm-debug.log*
 
 # Ignore all yarn lock files
 yarn.lock
@@ -527,8 +527,8 @@ secrets/
 # Ignore all node_modules
 node_modules/
 
-# Ignore all npm debug log files
-npm-debug.log*
+# Ignore all pnpm debug log files
+pnpm-debug.log*
 
 # Ignore all yarn lock files
 yarn.lock

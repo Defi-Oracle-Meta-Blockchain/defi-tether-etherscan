@@ -1,4 +1,36 @@
 <!-- Logback configuration for structured JSON logging -->
 <configuration>
-    <!-- Define logback configuration here -->
+    <!-- Include the necessary libraries -->
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+    <!-- Define the encoder for JSON logging -->
+    <appender name="JSON_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/application.json</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/application-%d{yyyy-MM-dd}.json</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder class="net.logstash.logback.encoder.LogstashEncoder">
+            <customFields>{"app_name":"DeFi Application","app_version":"1.0.0"}</customFields>
+        </encoder>
+    </appender>
+
+    <!-- Console appender for development -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root logger configuration -->
+    <root level="INFO">
+        <appender-ref ref="JSON_FILE"/>
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+    <!-- Logger for application-specific logs -->
+    <logger name="com.defi" level="DEBUG" additivity="false">
+        <appender-ref ref="JSON_FILE"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
 </configuration>

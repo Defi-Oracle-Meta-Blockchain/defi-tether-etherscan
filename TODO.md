@@ -19,7 +19,7 @@ This project aims to connect the DeFi Oracle Meta Mainnet to the Ethereum Mainne
 - [x] Install Web3j for Java-based interaction with the Ethereum blockchain.
   - **Note**: Verify compatibility with Java 11 as specified in the `README.md`.
 - [x] Install any other necessary libraries (e.g., dotenv for environment variables).
-  - **Note**: Consider using a dependency management tool like Maven for Java and npm for Node.js.
+  - **Note**: Consider using a dependency management tool like Maven for Java and pnpm for Node.js.
 
 ### 3. Configuration
 - [x] Create a `.env` file to store environment variables such as API keys, private keys, and network URLs.

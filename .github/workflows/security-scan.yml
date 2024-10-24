@@ -1,0 +1,24 @@
+name: Security Scan
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run security scan
+      uses: github/codeql-action/init@v1
+      with:
+        languages: java
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v1

@@ -1,13 +1,19 @@
 package com.defi.services;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 import org.web3j.protocol.Web3j;
-import org.web3j.protocol.core.methods.response.EthLog;
+import org.web3j.protocol.core.methods.request.EthFilter;
+import org.web3j.protocol.core.methods.response.Log;
+import io.reactivex.disposables.Disposable;
 
-import java.util.concurrent.CompletableFuture;
-
+@Service
 public class EventListenerService {
 
+    private static final Logger logger = LoggerFactory.getLogger(EventListenerService.class);
     private final Web3j web3j;
+    private Disposable subscription;
 
     public EventListenerService(Web3j web3j) {
         this.web3j = web3j;
@@ -15,9 +21,26 @@ public class EventListenerService {
 
     // Listen for events emitted from smart contracts
     public void listenForEvents() {
-        web3j.ethLogFlowable(new EthLog()).subscribe(log -> {
-            System.out.println("Event received: " + log);
-            // Process event here...
+        EthFilter filter = new EthFilter();
+        subscription = web3j.ethLogFlowable(filter).subscribe(log -> {
+            logger.info("Event received: {}", log);
+            processEvent(log);
+        }, error -> {
+            logger.error("Error while listening for events: {}", error.getMessage());
         });
+    }
+
+    // Process the received event
+    private void processEvent(Log log) {
+        // Implement event processing logic here...
+        logger.debug("Processing event: {}", log);
+    }
+
+    // Unsubscribe from event listening
+    public void stopListening() {
+        if (subscription != null && !subscription.isDisposed()) {
+            subscription.dispose();
+            logger.info("Stopped listening for events.");
+        }
     }
 }
