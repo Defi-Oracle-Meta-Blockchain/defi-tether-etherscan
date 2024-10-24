@@ -1,0 +1,632 @@
+# Ignore all build directories
+build/
+dist/
+target/
+
+# Ignore all log files
+*.log
+
+# Ignore all temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore all environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore all Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore all Maven-related files
+pom.xml
+
+# Ignore all IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore all VSCode project files
+.vscode/
+
+# Ignore all macOS system files
+.DS_Store
+
+# Ignore all Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore all coverage reports
+coverage/
+*.lcov
+
+# Ignore all test result files
+test-results/
+test-output/
+
+# Ignore all database files
+db/
+
+# Ignore all resource files
+src/main/resources/
+
+# Ignore all configuration files
+src/main/java/com/defi/config/
+
+# Ignore all utility files
+src/main/java/com/defi/utils/
+
+# Ignore all service files
+src/main/java/com/defi/services/
+
+# Ignore all contract files
+src/main/java/com/defi/contracts/
+
+# Ignore all main application files
+src/main/java/com/defi/App.java
+
+# Ignore all secret files
+secrets/
+*.key
+*.pem
+*.crt
+
+# Ignore all node_modules
+node_modules/
+
+# Ignore all npm debug log files
+npm-debug.log*
+
+# Ignore all yarn lock files
+yarn.lock
+
+# Ignore all package-lock.json files
+package-lock.json
+
+# Ignore all .next build files
+.next/
+
+# Ignore all .nuxt build files
+.nuxt/
+
+# Ignore all .cache files
+.cache/
+
+# Ignore all .parcel-cache files
+.parcel-cache/
+
+# Ignore all .expo files
+.expo/
+
+# Ignore all .expo-shared files
+.expo-shared/
+
+# Ignore all .env files
+.env
+.env.local
+.env.*.local
+
+# Ignore all .pnp files
+.pnp
+.pnp.js
+
+# Ignore all .eslintcache files
+.eslintcache
+
+# Ignore all .stylelintcache files
+.stylelintcache
+
+# Ignore all .cache-loader files
+.cache-loader/
+
+# Ignore all .nyc_output files
+.nyc_output/
+
+# Ignore all .vscode files
+.vscode/
+
+# Ignore all .idea files
+.idea/
+
+# Ignore all .log files
+*.log
+
+# Ignore all .tmp files
+*.tmp
+
+# Ignore all .swp files
+*.swp
+
+# Ignore all .bak files
+*.bak
+
+# Ignore all .DS_Store files
+.DS_Store
+
+# Ignore all Thumbs.db files
+Thumbs.db
+
+# Ignore all desktop.ini files
+desktop.ini
+
+# Ignore all coverage files
+coverage/
+*.lcov
+
+# Ignore all test result files
+test-results/
+test-output/
+
+# Ignore all database files
+db/
+
+# Ignore all resource files
+src/main/resources/
+
+# Ignore all configuration files
+src/main/java/com/defi/config/
+
+# Ignore all utility files
+src/main/java/com/defi/utils/
+
+# Ignore all service files
+src/main/java/com/defi/services/
+
+# Ignore all contract files
+src/main/java/com/defi/contracts/
+
+# Ignore all main application files
+src/main/java/com/defi/App.java
+
+# Ignore all secret files
+secrets/
+*.key
+*.pem
+*.crt
+
+# Ignore all node_modules
+node_modules/
+
+# Ignore all npm debug log files
+npm-debug.log*
+
+# Ignore all yarn lock files
+yarn.lock
+
+# Ignore all package-lock.json files
+package-lock.json
+
+# Ignore all .next build files
+.next/
+
+# Ignore all .nuxt build files
+.nuxt/
+
+# Ignore all .cache files
+.cache/
+
+# Ignore all .parcel-cache files
+.parcel-cache/
+
+# Ignore all .expo files
+.expo/
+
+# Ignore all .expo-shared files
+.expo-shared/
+
+# Ignore all .env files
+.env
+.env.local
+.env.*.local
+
+# Ignore all .pnp files
+.pnp
+.pnp.js
+
+# Ignore all .eslintcache files
+.eslintcache
+
+# Ignore all .stylelintcache files
+.stylelintcache
+
+# Ignore all .cache-loader files
+.cache-loader/
+
+# Ignore all .nyc_output files
+.nyc_output/
+
+# Ignore all .vscode files
+.vscode/
+
+# Ignore all .idea files
+.idea/
+
+# Ignore all .log files
+*.log
+
+# Ignore all .tmp files
+*.tmp
+
+# Ignore all .swp files
+*.swp
+
+# Ignore all .bak files
+*.bak
+
+# Ignore all .DS_Store files
+.DS_Store
+
+# Ignore all Thumbs.db files
+Thumbs.db
+
+# Ignore all desktop.ini files
+desktop.ini
+
+# Ignore all coverage files
+coverage/
+*.lcov
+
+# Ignore all test result files
+test-results/
+test-output/
+
+# Ignore all database files
+db/
+
+# Ignore all resource files
+src/main/resources/
+
+# Ignore all configuration files
+src/main/java/com/defi/config/
+
+# Ignore all utility files
+src/main/java/com/defi/utils/
+
+# Ignore all service files
+src/main/java/com/defi/services/
+
+# Ignore all contract files
+src/main/java/com/defi/contracts/
+
+# Ignore all main application files
+src/main/java/com/defi/App.java
+
+# Ignore all secret files
+secrets/
+*.key
+*.pem
+*.crt
+
+# Ignore all node_modules
+node_modules/
+
+# Ignore all npm debug log files
+npm-debug.log*
+
+# Ignore all yarn lock files
+yarn.lock
+
+# Ignore all package-lock.json files
+package-lock.json
+
+# Ignore all .next build files
+.next/
+
+# Ignore all .nuxt build files
+.nuxt/
+
+# Ignore all .cache files
+.cache/
+
+# Ignore all .parcel-cache files
+.parcel-cache/
+
+# Ignore all .expo files
+.expo/
+
+# Ignore all .expo-shared files
+.expo-shared/
+
+# Ignore all .env files
+.env
+.env.local
+.env.*.local
+
+# Ignore all .pnp files
+.pnp
+.pnp.js
+
+# Ignore all .eslintcache files
+.eslintcache
+
+# Ignore all .stylelintcache files
+.stylelintcache
+
+# Ignore all .cache-loader files
+.cache-loader/
+
+# Ignore all .nyc_output files
+.nyc_output/
+
+# Ignore all .vscode files
+.vscode/
+
+# Ignore all .idea files
+.idea/
+
+# Ignore all .log files
+*.log
+
+# Ignore all .tmp files
+*.tmp
+
+# Ignore all .swp files
+*.swp
+
+# Ignore all .bak files
+*.bak
+
+# Ignore all .DS_Store files
+.DS_Store
+
+# Ignore all Thumbs.db files
+Thumbs.db
+
+# Ignore all desktop.ini files
+desktop.ini
+
+# Ignore all coverage files
+coverage/
+*.lcov
+
+# Ignore all test result files
+test-results/
+test-output/
+
+# Ignore all database files
+db/
+
+# Ignore all resource files
+src/main/resources/
+
+# Ignore all configuration files
+src/main/java/com/defi/config/
+
+# Ignore all utility files
+src/main/java/com/defi/utils/
+
+# Ignore all service files
+src/main/java/com/defi/services/
+
+# Ignore all contract files
+src/main/java/com/defi/contracts/
+
+# Ignore all main application files
+src/main/java/com/defi/App.java
+
+# Ignore all secret files
+secrets/
+*.key
+*.pem
+*.crt
+
+# Ignore all node_modules
+node_modules/
+
+# Ignore all npm debug log files
+npm-debug.log*
+
+# Ignore all yarn lock files
+yarn.lock
+
+# Ignore all package-lock.json files
+package-lock.json
+
+# Ignore all .next build files
+.next/
+
+# Ignore all .nuxt build files
+.nuxt/
+
+# Ignore all .cache files
+.cache/
+
+# Ignore all .parcel-cache files
+.parcel-cache/
+
+# Ignore all .expo files
+.expo/
+
+# Ignore all .expo-shared files
+.expo-shared/
+
+# Ignore all .env files
+.env
+.env.local
+.env.*.local
+
+# Ignore all .pnp files
+.pnp
+.pnp.js
+
+# Ignore all .eslintcache files
+.eslintcache
+
+# Ignore all .stylelintcache files
+.stylelintcache
+
+# Ignore all .cache-loader files
+.cache-loader/
+
+# Ignore all .nyc_output files
+.nyc_output/
+
+# Ignore all .vscode files
+.vscode/
+
+# Ignore all .idea files
+.idea/
+
+# Ignore all .log files
+*.log
+
+# Ignore all .tmp files
+*.tmp
+
+# Ignore all .swp files
+*.swp
+
+# Ignore all .bak files
+*.bak
+
+# Ignore all .DS_Store files
+.DS_Store
+
+# Ignore all Thumbs.db files
+Thumbs.db
+
+# Ignore all desktop.ini files
+desktop.ini
+
+# Ignore all coverage files
+coverage/
+*.lcov
+
+# Ignore all test result files
+test-results/
+test-output/
+
+# Ignore all database files
+db/
+
+# Ignore all resource files
+src/main/resources/
+
+# Ignore all configuration files
+src/main/java/com/defi/config/
+
+# Ignore all utility files
+src/main/java/com/defi/utils/
+
+# Ignore all service files
+src/main/java/com/defi/services/
+
+# Ignore all contract files
+src/main/java/com/defi/contracts/
+
+# Ignore all main application files
+src/main/java/com/defi/App.java
+
+# Ignore all secret files
+secrets/
+*.key
+*.pem
+*.crt
+
+# Ignore all node_modules
+node_modules/
+
+# Ignore all npm debug log files
+npm-debug.log*
+
+# Ignore all yarn lock files
+yarn.lock
+
+# Ignore all package-lock.json files
+package-lock.json
+
+# Ignore all .next build files
+.next/
+
+# Ignore all .nuxt build files
+.nuxt/
+
+# Ignore all .cache files
+.cache/
+
+# Ignore all .parcel-cache files
+.parcel-cache/
+
+# Ignore all .expo files
+.expo/
+
+# Ignore all .expo-shared files
+.expo-shared/
+
+# Ignore all .env files
+.env
+.env.local
+.env.*.local
+
+# Ignore all .pnp files
+.pnp
+.pnp.js
+
+# Ignore all .eslintcache files
+.eslintcache
+
+# Ignore all .stylelintcache files
+.stylelintcache
+
+# Ignore all .cache-loader files
+.cache-loader/
+
+# Ignore all .nyc_output files
+.nyc_output/
+
+# Ignore all .vscode files
+.vscode/
+
+# Ignore all .idea files
+.idea/
+
+# Ignore all .log files
+*.log
+
+# Ignore all .tmp files
+*.tmp
+
+# Ignore all .swp files
+*.swp
+
+# Ignore all .bak files
+*.bak
+
+# Ignore all .DS_Store files
+.DS_Store
+
+# Ignore all Thumbs.db files
+Thumbs.db
+
+# Ignore all desktop.ini files
+desktop.ini
+
+# Ignore all coverage files
+coverage/
+*.lcov
+
+# Ignore all test result files
+test-results/
+test-output/
+
+# Ignore all database files
+db/
+
+# Ignore all resource files
+src/main/resources/
+
+# Ignore all configuration files
+src/main/java/com/defi/config/
+
+# Ignore all utility files
+src/main/java/com/defi/utils/
+
+# Ignore all service files
+src/main/java/com/defi/services/
+
+# Ignore all contract files
+src/main/java/com/defi/contracts/
+
+# Ignore all main application files
+

@@ -1,0 +1,74 @@
+# Ignore all files in the .git directory
+.git/
+
+# Ignore all node_modules directories
+node_modules/
+
+# Ignore all build directories
+build/
+dist/
+target/
+
+# Ignore all log files
+*.log
+
+# Ignore all temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore all environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore all Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore all Maven-related files
+pom.xml
+
+# Ignore all IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore all VSCode project files
+.vscode/
+
+# Ignore all macOS system files
+.DS_Store
+
+# Ignore all Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore all coverage reports
+coverage/
+*.lcov
+
+# Ignore all test result files
+test-results/
+test-output/
+
+# Ignore all database files
+db/
+
+# Ignore all resource files
+src/main/resources/
+
+# Ignore all configuration files
+src/main/java/com/defi/config/
+
+# Ignore all utility files
+src/main/java/com/defi/utils/
+
+# Ignore all service files
+src/main/java/com/defi/services/
+
+# Ignore all contract files
+src/main/java/com/defi/contracts/
+
+# Ignore all main application files
+src/main/java/com/defi/App.java
+
