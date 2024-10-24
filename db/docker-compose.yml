@@ -1,0 +1,10 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: defi_db
+      POSTGRES_USER: defi_user
+      POSTGRES_PASSWORD: defi_password
+    ports:
+      - "5432:5432"

@@ -1,0 +1,4 @@
+<!-- Logback configuration for structured JSON logging -->
+<configuration>
+    <!-- Define logback configuration here -->
+</configuration>
