@@ -50,7 +50,7 @@ Ensure you have the following installed on your system:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/defi-tether-etherscan.git
+   git clone https://github.com/Defi-Oracle-Meta-Blockchain/defi-tether-etherscan.git
    cd defi-tether-etherscan
    ```
 
@@ -75,6 +75,8 @@ Ensure you have the following installed on your system:
    docker-compose up --build
    ```
 
+   *Docker is used to containerize the application for consistent deployment, and Docker Compose orchestrates the different services like the application and database. Ensure that the application is accessible at `localhost:8080`.*
+
 ## Configuration
 
 ### Application Properties
@@ -94,6 +96,16 @@ Set the following environment variables for the application:
 - `PRIVATE_KEY`: Your Ethereum private key.
 - `ETHEREUM_ADDRESS`: Your Ethereum address.
 - `CONTRACT_ADDRESS`: The address of the deployed smart contract.
+
+Example `.env` file:
+
+```plaintext
+ETHERSCAN_API_KEY=your-etherscan-api-key
+INFURA_PROJECT_ID=your-infura-project-id
+PRIVATE_KEY=your-private-key
+ETHEREUM_ADDRESS=your-ethereum-address
+CONTRACT_ADDRESS=your-contract-address
+```
 
 ## Usage
 
@@ -124,6 +136,8 @@ The project includes a CI/CD pipeline configured with GitHub Actions. The pipeli
 2. **Set up JDK 11**: The pipeline sets up JDK 11 for the project.
 3. **Build the project**: The pipeline builds the project using Maven.
 4. **Run unit tests**: The pipeline runs unit tests to ensure code quality.
+
+*The pipeline is triggered on every push and pull request.*
 
 The configuration file is located at `.github/workflows/ci.yml`.
 
